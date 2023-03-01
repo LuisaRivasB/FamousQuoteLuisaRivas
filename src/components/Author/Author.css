@@ -1,0 +1,18 @@
+.author_container{
+  width: 160px;
+  height: 50px;
+  background-color: bisque;
+  opacity: 80%;
+  margin-bottom: 40px;
+  line-height: 50px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+@media (max-width: 500px) {
+  .author_container{
+    width: 130px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+  }
+}

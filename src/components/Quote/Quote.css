@@ -1,0 +1,37 @@
+.quote_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px 5px 22px 5px;
+  background-color: bisque;
+  width: 450px;
+  height: 150px;
+  position: relative;
+}
+.quote {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  position: relative;
+  padding: 10px;
+}
+.detail{
+  position: absolute;
+  height: 30px;
+  width: 22px;
+  rotate: 20deg;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-top-left-radius: 5px;
+  bottom: -5px;
+  right: 3px;
+}
+@media (max-width: 500px) {
+  .quote_container{
+    width: 360px;
+    height: 150px;
+  }
+  .quote  {
+    font-size: 16px;
+  }
+}
